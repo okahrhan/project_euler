@@ -6,7 +6,7 @@ def is_pentagonal(n):
         return True
     return False
 
-def main():
+if __name__ == "__main__":
     flag = True
     i = 1
     while flag:
@@ -17,7 +17,4 @@ def main():
                 print(a - b)
                 flag = False
                 break
-        i += 1  
-
-if __name__ == "__main__":
-    main()
+        i += 1

@@ -13,8 +13,6 @@ def count_p(max_p):
     max_p = max(dic, key=dic.get)
     return max_p, dic[max_p]
 
-def main():
+if __name__ == "__main__":
     print(count_p(1000))
     #cozum sayisinin en fazla oldugu p degeri: argv [0], cozum sayisi: argv [1]}
-if __name__ == "__main__":
-    main()

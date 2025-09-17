@@ -8,9 +8,7 @@ def sum(value):
         result += int(i)
     return result
 
-def main():
+if __name__ == "__main__":
     value = int(input("value:"))
     sum_result = digit(value)
     print(sum(sum_result))
-if __name__ == "__main__":
-    main()

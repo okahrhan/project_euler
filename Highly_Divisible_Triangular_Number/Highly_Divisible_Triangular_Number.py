@@ -18,8 +18,5 @@ def derive(number):
         counter -= 1
     return counter
 
-def main():
-    print(triangle_number())
-
 if __name__ == "__main__":
-    main()
+    print(triangle_number())

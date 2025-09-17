@@ -8,8 +8,5 @@ def spiral():
         return_value += an + bn + cn + dn
     return return_value
 
-def main():
-    print(spiral())
-
 if __name__ == "__main__":
-    main()
+    print(spiral())

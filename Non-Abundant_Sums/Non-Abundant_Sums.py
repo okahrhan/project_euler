@@ -28,8 +28,5 @@ def abound():
     return result
 
 
-def main():
-    print(abound())
-
 if __name__ == "__main__":
-    main()
+    print(abound())

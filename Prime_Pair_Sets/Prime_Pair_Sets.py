@@ -43,7 +43,7 @@ def find_prime_sets(primes, size):
             return result
     return None
 
-def main():
+if __name__ == '__main__':
     numbers = list_of_primes()
     result = find_prime_sets(numbers, 5)
     if result:
@@ -51,11 +51,3 @@ def main():
         print("Toplam:", sum(result))
     else:
         print("Uygun küme bulunamadı.")
-
-
-
-
-
-
-if __name__ == '__main__':
-    main()

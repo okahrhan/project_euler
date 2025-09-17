@@ -13,11 +13,9 @@ def circular(value):
             return False
     return True
 
-def main():
+if __name__ == "__main__":
     counter = 0
     for i in range(2,1000000):
         if is_prime(i) and circular(i):
             counter += 1
     print(counter)
-if __name__ == "__main__":
-    main()

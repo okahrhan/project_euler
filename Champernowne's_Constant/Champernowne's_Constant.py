@@ -13,7 +13,5 @@ def find_pos():
 
     return product
 
-def main():
-    print(find_pos())
 if __name__ == "__main__":
-    main()
+    print(find_pos())

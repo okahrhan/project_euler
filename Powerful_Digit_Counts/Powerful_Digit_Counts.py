@@ -18,7 +18,7 @@ def digit_power(number):
             return result
         i+=1
 
-def main():
+def count_powerful_digits():
     p = 1
     return_value = 0
     while True:
@@ -28,4 +28,4 @@ def main():
         if n == 0:
             return return_value
 if __name__ == '__main__':
-    run_with_timer(main)
+    run_with_timer(count_powerful_digits)

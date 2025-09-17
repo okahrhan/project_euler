@@ -22,7 +22,5 @@ def chain():
 
 
 
-def main():
-    print(chain())
 if __name__ == "__main__":
-    main()
+    print(chain())

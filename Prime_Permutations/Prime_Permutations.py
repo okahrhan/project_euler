@@ -3,11 +3,13 @@ def is_prime(number):
         if number % i == 0:
             return False
     return True
-def main():
+if __name__ == '__main__':
     primes = []
     for i in range(1000, 10000):
         if is_prime(i):
             primes.append(i)
+
+    result = None
     for i in range(len(primes)):
         for j in range(i + 1, len(primes)):
             a = primes[i]
@@ -19,8 +21,10 @@ def main():
                 if sorted(str(a)) == sorted(str(b)) == sorted(str(c)):
                     triplet = (a, b, c)
                     if triplet != (1487, 4817, 8147):
-                        return f"{a}{b}{c}"
+                        result = f"{a}{b}{c}"
+                        break
+        if result:
+            break
 
-
-if __name__ == '__main__':
-    print(main())
+    if result:
+        print(result)

@@ -9,7 +9,5 @@ def power_number():
                 lst.append(value)
 
     return len(lst)
-def main():
-    print(power_number())
 if __name__ == "__main__":
-    main()
+    print(power_number())

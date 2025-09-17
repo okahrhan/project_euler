@@ -14,7 +14,7 @@ def is_it(number):
             continue
     return False
 
-def main():
+if __name__ == '__main__':
     lst = []
     i = 1
     while True:
@@ -24,8 +24,5 @@ def main():
         if is_it(square):
             lst.append(square)
         i += 1
-    return sum(lst)
-
-if __name__ == '__main__':
-    print(main())
+    print(sum(lst))
 #20 dk da bitti

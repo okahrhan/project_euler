@@ -16,7 +16,5 @@ def is_it(value):
         result += int(i)**5
     return result
 
-def main():
-    print(fight())
 if __name__ == "__main__":
-    main()
+    print(fight())

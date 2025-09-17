@@ -30,15 +30,11 @@ def fraction():
 
     return lst
 
-def main():
+if __name__ == "__main__":
     fractions = fraction()
     product = 1
     for frac in fractions:
         product *= frac
 
-
     result = product.limit_denominator()
     print(result)
-
-if __name__ == "__main__":
-    main()

@@ -37,7 +37,5 @@ def C_Prime_Sum():
 
     return result, max_length
 
-def main():
-    print(C_Prime_Sum())
 if __name__ == '__main__':
-    main()
+    print(C_Prime_Sum())

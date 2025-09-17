@@ -30,7 +30,7 @@ def fractionToDecimal(numerator, denominator):
     return "".join(result)
 
 
-def main():
+if __name__ == "__main__":
     result = 0
     return_value = 0
     a = 0
@@ -43,4 +43,3 @@ def main():
             a = i
 
     print(a)
-main()

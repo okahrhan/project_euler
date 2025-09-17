@@ -19,12 +19,10 @@ def is_written(n):
                     return True
     return False
 
-def main():
-    n = 9  
+if __name__ == "__main__":
+    n = 9
     while True:
         if not is_prime(n) and not is_written(n):
-            return n
-        n += 2  
-
-if __name__ == "__main__":
-    print(main())
+            print(n)
+            break
+        n += 2

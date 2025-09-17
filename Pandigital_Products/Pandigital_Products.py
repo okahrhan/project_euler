@@ -15,7 +15,5 @@ def is_pandigital(i, j, value):
         return True
     return False
 
-def main():
-    print(product())
 if __name__ == "__main__":
-    main()
+    print(product())

@@ -10,10 +10,8 @@ def sum(value):
         result += int(i)
     return result
 
-def main():
+if __name__ =="__main__":
     value = int(input("value ="))
     a = factoriel(value)
     b = sum(a)
     print(b)
-if __name__ =="__main__":
-    main()
