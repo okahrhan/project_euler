@@ -28,8 +28,5 @@ def sums_of_prime():
         n += 1
 
     return total_sum
-def main():
-    print(sums_of_prime())
-
 if __name__ == "__main__":
-    main()
+    print(sums_of_prime())

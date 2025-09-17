@@ -16,15 +16,12 @@ def is_pentagonal(n):
 def is_hexagonal(n):
     return (1 + (8 * n + 1)**0.5) % 4 == 0
 
-def main():
-    value1 = 286  
+if __name__ == "__main__":
+    value1 = 286
     while True:
         triangle_number = Triangle(value1)
         if is_pentagonal(triangle_number) and is_hexagonal(triangle_number):
             print(triangle_number)
             break
-        
-        value1 += 1
 
-if __name__ == "__main__":
-    main()
+        value1 += 1

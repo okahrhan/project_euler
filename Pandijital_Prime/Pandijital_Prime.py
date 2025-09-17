@@ -18,7 +18,7 @@ def permutasyon(rakamlar):
 
     return permutasyonlar
 
-def main():
+if __name__ == "__main__":
     max_result = 0
     digit = "7654321"
     permutations = permutasyon(digit)
@@ -28,6 +28,4 @@ def main():
         if is_prime(num):
             max_result = max(max_result, num)
 
-    return max_result
-
-print(main())
+    print(max_result)

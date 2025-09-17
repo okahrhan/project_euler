@@ -26,11 +26,8 @@ def amicable_sums(value_lst):
         result += i
     return result
 
-def main():
+if __name__ == "__main__":
     value = int(input("value = "))
     a = amicable(value)
     b = amicable_sums(a)
     print(b)
-
-if __name__ == "__main__":
-    main()

@@ -1,4 +1,4 @@
-def main():
+if __name__ == "__main__":
     bellow = int(input(""))
     sum = 0
 
@@ -7,6 +7,3 @@ def main():
             sum += i
 
     print(sum)
-
-if __name__ == "__main__":
-    main()

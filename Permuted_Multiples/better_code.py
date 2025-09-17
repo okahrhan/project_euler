@@ -7,12 +7,10 @@ def check_multiple(number):
             return False
     return True
 
-def main():
+if __name__ == '__main__':
     number = 1
     while True:
         if check_multiple(number):
-            return number
+            print(number)
+            break
         number += 1
-
-if __name__ == '__main__':
-    print(main())

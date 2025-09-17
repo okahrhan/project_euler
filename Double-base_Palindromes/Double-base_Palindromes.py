@@ -10,9 +10,7 @@ def sum_palindromes(n):
             total_sum += i
     return total_sum
 
-def main():
+if __name__ == "__main__":
     n = 1000000
     result = sum_palindromes(n)
     print(result)
-if __name__ == "__main__":
-    main()

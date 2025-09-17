@@ -18,8 +18,5 @@ def sums(value):
         result += factorial(int(i))
     return result
 
-def main():
-    print(is_it())
-
 if __name__ == "__main__":
-    main()
+    print(is_it())

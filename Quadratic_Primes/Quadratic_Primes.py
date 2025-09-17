@@ -26,8 +26,5 @@ def is_prime(value):
             return False
     return True
 
-def main():
-    print(quadratic())
-
 if __name__ == "__main__":
-    main()
+    print(quadratic())

@@ -14,8 +14,6 @@ def sum_of_primes(value):
     return total + 2
 
 
-def main():
-   value = int(input("value:"))
-   print(sum_of_primes(value))
 if __name__ == "__main__":
-        main()
+    value = int(input("value:"))
+    print(sum_of_primes(value))

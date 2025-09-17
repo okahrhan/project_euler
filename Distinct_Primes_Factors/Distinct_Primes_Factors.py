@@ -13,7 +13,7 @@ def Find_primes(number):
     return lst
 
 
-def main():
+if __name__ == '__main__':
 
     order = 0
     i = 2
@@ -26,7 +26,3 @@ def main():
         else:
             order = 0
         i += 1
-
-
-if __name__ == '__main__':
-    main()
